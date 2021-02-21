@@ -14,7 +14,15 @@ updates:
     assignees:
       - "skyoo2003"
   - package-ecosystem: "docker"
-    directory: "/"
+    directory: "/digdag"
+    schedule:
+      interval: "daily"
+    reviewers:
+      - "skyoo2003"
+    assignees:
+      - "skyoo2003"
+  - package-ecosystem: "docker"
+    directory: "/prometheus-jmx-exporter"
     schedule:
       interval: "daily"
     reviewers:
