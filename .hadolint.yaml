@@ -3,4 +3,4 @@ ignored:
 
 trustedRegistries:
   - docker.io
-  - docker.pkg.github.com
+  - ghcr.io
