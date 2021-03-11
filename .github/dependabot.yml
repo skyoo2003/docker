@@ -9,23 +9,23 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    reviewers:
-      - "skyoo2003"
     assignees:
       - "skyoo2003"
   - package-ecosystem: "docker"
     directory: "/digdag"
     schedule:
       interval: "daily"
-    reviewers:
-      - "skyoo2003"
     assignees:
       - "skyoo2003"
   - package-ecosystem: "docker"
     directory: "/prometheus-jmx-exporter"
     schedule:
       interval: "daily"
-    reviewers:
+    assignees:
       - "skyoo2003"
+  - package-ecosystem: "docker"
+    directory: "/wait-for-it"
+    schedule:
+      interval: "daily"
     assignees:
       - "skyoo2003"
