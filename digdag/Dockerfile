@@ -1,4 +1,4 @@
-FROM alpine:3.13
+FROM alpine:3.14.0
 LABEL maintainer="Sung-Kyu Yoo <skyoo2003@gmail.com>"
 
 ENV DIGDAG_VERSION 0.10.0
