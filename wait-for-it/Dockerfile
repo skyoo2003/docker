@@ -1,4 +1,4 @@
-FROM alpine:3.13
+FROM alpine:3.15.4
 LABEL maintainer="Sung-Kyu Yoo <skyoo2003@gmail.com>"
 
 ADD https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh /usr/bin/wait-for-it.sh
