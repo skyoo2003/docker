@@ -1,4 +1,4 @@
-FROM alpine:3.13
+FROM alpine:3.17
 LABEL maintainer="Sung-Kyu Yoo <skyoo2003@gmail.com>"
 
 ENV JMX_EXPORTER_VERSION 0.15.0
